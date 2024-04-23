@@ -4,8 +4,7 @@ body {
     margin: 0 auto;
     max-width: 1120px;
     background: linear-gradient(to bottom, #0a0a0a, #000, #141414);
-        background-size: 120% 120%;
-        
+    background-size: 120% 120%;    
 }
 
 .cabecalho {
@@ -42,6 +41,7 @@ body {
 .cabecalho .menu .itens .item{
     font-size: 20px;
     text-transform: capitalize;
+    letter-spacing: 1px;
     padding: 10px 20px;
     transition: 0.2s;
 }
