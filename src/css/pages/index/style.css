@@ -15,19 +15,20 @@ body {
 }
 
 .cabecalho .logo {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     border: 2px solid #fff;
     text-align: center;
-    line-height: 60px;
+    line-height: 52px;
     font-family: "Raleway", sans-serif;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .cabecalho a:hover .logo {
     opacity: 50%;
-    transform: scale(1.04);
+    transform: scale(1.08);
+
 }
 
 
@@ -145,7 +146,8 @@ body.white .cabecalho .menu .itens .item:hover a{
     align-items: center;
     gap: 50px;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .home .informacoes {
@@ -158,16 +160,14 @@ body.white .cabecalho .menu .itens .item:hover a{
     max-width: 50%;
 }
 
-.home .informacoes h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 45px;
+.home .informacoes h2 {
+    font-size: 40px;
     max-width: 100%;
     width: 100%;
 }
 
-.home .informacoes h2 {
-    font-size: 35px;
-    font-family: "Raleway", sans-serif;
+.home .informacoes h3 {
+    font-size: 29px;
 }
 
 .home .informacoes p {
@@ -199,21 +199,15 @@ body.white .cabecalho .menu .itens .item:hover a{
     color: #000;
 }
 
-.home .container-foto .foto {
-    max-width: 400px;
-    border-radius: 50%;
+.home .foto {
+    width: 50%;
+    margin: 0 30px;
 }
 
-.home .container-foto img {
+.home .foto img {
+    max-width: 400px;
     width: 100%;
     border-radius: 50%; 
-    background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
-}
-
-.home .foto.sombra-interna {
-    background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
-    background-size: 180% 180%;
-    animation: gradient-animation 5s ease infinite;
 }
 
 .rodape {
@@ -223,7 +217,7 @@ body.white .cabecalho .menu .itens .item:hover a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .rodape .copyright {
