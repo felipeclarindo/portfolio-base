@@ -28,13 +28,14 @@ body {
     font-size: 50px;
     max-width: 100%;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .principal .informacoes p {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
-    margin-bottom: 5px;
+    letter-spacing: 0.10;   
+    margin-bottom: 1px;
 }
 
 .principal .informacoes h2 + p {
