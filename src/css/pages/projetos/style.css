@@ -82,7 +82,7 @@ body {
     padding: 20px;
     font-size: 18px;
     font-weight: 600;
-    margin: 30px auto 100px auto;
+    margin: 30px auto 50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@ body {
 
 .projetos .btn-mostrar-projetos:hover {
     opacity: 50%;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .projetos .btn-voltar-projetos {
@@ -103,7 +103,7 @@ body {
     padding: 20px;
     font-size: 18px;
     font-weight: 600;
-    margin: 30px auto 100px auto;
+    margin: 30px auto 50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
