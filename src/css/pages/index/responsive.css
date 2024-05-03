@@ -19,6 +19,15 @@
 }
 
 @media(max-width: 425px) {
+    
+    .cabecalho{
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+        max-height: 25vh;
+        margin-bottom: 10%;
+    }
+
     .principal .informacoes h1 {
         font-size: 30px;
     }
