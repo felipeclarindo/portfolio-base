@@ -45,9 +45,15 @@ body {
 
 .principal section p {
     margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.principal .dados p strong {
+    font-size: 17px;
 }
 
 .principal .curriculo {
+    width: 100%;
     margin: 20px 30px 30px 30px;
     padding: 50px 100px;
     background-color: white;
