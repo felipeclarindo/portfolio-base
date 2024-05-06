@@ -122,6 +122,17 @@ body {
     background-color: black;
 }
 
+.principal .idiomas {
+    position: relative;
+    max-width: 50%;
+}
+
+.principal .idiomas .nivel {
+    font-weight: lighter;
+    position: absolute;
+    right: 0;
+}
+
 body.white .curriculo {
     background-color: black;
     color: #fff;
