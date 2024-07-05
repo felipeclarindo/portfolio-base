@@ -1,3 +1,4 @@
+@import url("../theme/white-theme.css");
 @import url("../components/header.css");
 @import url("../components/footer.css");
 @import url("../base/responsive.css");
@@ -7,9 +8,9 @@
 body {
     color: #fff;
     font-family: "Poppins", sans-serif;
-    margin: 0 auto;
-    max-width: 1120px;
-    background: linear-gradient(to bottom, #0a0a0a, #000, #141414);
+    margin: 0 auto;    
+    max-width: 1520px;
+    background: linear-gradient(to bottom, #0a0a0a, #000, #0c0c0c);
     background-size: 120% 120%;
     transition: all .3s ease;
 }
@@ -18,12 +19,11 @@ body {
     display: flex;
     min-height: calc(100vh - 125px);
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 60px;
+    gap: 95px;
+    margin: 0 60px 20px 60px;
 }
 
 .principal .informacoes {
-    margin: 20px 10px;
     display:  flex;
     flex-direction: column;
     letter-spacing: 2px;
@@ -73,15 +73,13 @@ body {
 
 .principal .foto {
     width: 50%;
-    margin: 0 80px;
 }
 
 .principal .foto img {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     border-radius: 50%; 
 }
-
 
 @keyframes gradient-animation {
     0% {
