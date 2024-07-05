@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 15px;
+    padding: 30px 75px;
 }
 
 .cabecalho .logo {
@@ -20,7 +20,6 @@
 .cabecalho a:hover .logo {
     opacity: 50%;
     transform: scale(1.08);
-
 }
 
 
@@ -95,41 +94,4 @@
 
 .fa-sun {
     color: #ffffff;
-}
-
-body.white {    
-    background: linear-gradient(to bottom, #ffffff, #ada8a8);
-    color: #000;
-}
-
-body.white a {
-    color: #000;
-}
-
-body.white .home .redes-sociais a i {
-    border-color: #000;
-    color: #000;
-}
-
-body.white .home .redes-sociais a i:hover {
-    background-color: rgb(0, 0, 0);
-    transform: scale(1.3);
-    color: #ffffff;
-}
-
-body.white .cabecalho .logo {
-    border-color:#000;
-}
-
-body.white .cabecalho .menu .itens .item:hover {
-    background-color: #000000;
-    border-radius: 50px;
-}
-
-body.white .cabecalho .menu .itens .item:hover a{
-    color: #fff
-}
-
-body.white .botao .label .bola {
-    background-color: #fff;
 }
