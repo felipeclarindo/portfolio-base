@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="./src/css/pages/index.css">
     <!-- Adicionando Favicon -->
     <link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon">
-    <!-- Linkando script do Font Awesome -->
-    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <!-- Linkando Font Awesome -->
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous" defer></script>
     <!-- Linkando JavaScript da página -->
     <script src="./src/js/index.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
         <a href="./index.html">
-            <h1 class="logo">FC</h1>
+            <h1 class="logo" aria-label="Logo do site, representada pelas letras FC">FC</h1>
         </a>
 
         <nav class="menu">
@@ -37,9 +37,9 @@
         </nav>
         <div class="botao" title="Trocar tema">
             <input type="checkbox" class="checkbox" id="chk">
-            <label class="label" for="chk">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
+            <label class="label" for="chk" aria-label="trocar tema">
+                <i class="fas fa-moon" aria-label="lua"></i>
+                <i class="fas fa-sun" aria-label="sol"></i>
                 <div class="bola"></div>
             </label>
         </div>
@@ -53,39 +53,56 @@
             <ul class="redes-sociais">
                 <li>
                     <a href="https://www.linkedin.com/in/felipeclarindo/" title="Ir para o Linkedin" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-linkedin-in" aria-label="Ícone do Linkedin para visitar o perfil de Felipe Clarindo"></i>
                     </a>
                 </li>
 
                 <li>
                     <a href="https://wa.me/5511978590137" title="Enviar Mensagem no Whatsapp" target="_blank">
-                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-whatsapp" aria-label="Ícone do Whatsapp para caso deseje contato com Felipe Clarindo"></i>
                     </a>
                 </li>
 
                 <li>
                     <a href="https://github.com/felipeclarindo" title="Ir para o github" target="_blank">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github" aria-label="Ícone do Github para visitar o perfil de Felipe Clarindo"></i>
                     </a>
                 </li>
 
                 <li>
                     <a href="https://instagram.com/lipethegoat" title="Ir para o Instagram" target="_blank">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram" aria-label="Ícone do Instagram para visitar o perfil de Felipe Clarindo"></i>
                     </a>
                 </li>
             </ul>
         </div>  
 
         <div class="foto">
-                <img src="./src/images/index/perfil.jfif" alt="foto do desenvolvedor">
+                <img src="./src/images/index/perfil.jfif" alt="foto do desenvolvedor Felipe Clarindo">
         </div>
     </main>
 
     <footer class="rodape">
+        <section class="secao links">
+            <h4>Links Rápidos</h4>
+            <ul class="items">
+                <li class="item">Home</li>
+                <li class="item">Projetos</li>
+                <li class="item">Curriculo</li>
+            </ul>
+        </section>
         <div class="copyright">
+            <h1 class="logo" aria-label="Logo do site, representada pelas letras FC">FC</h1>
             <p>© Copyright 2024</p>
         </div>
+        <section class="secao navegacao">
+            <h4>Redes Sociais</h4>
+            <ul class="items">
+                <li class="item">Github</li>
+                <li class="item">Linkedin</li>
+                <li class="item">Instagram</li>
+            </ul>
+        </section>
     </footer>
 </body>
 </html>
