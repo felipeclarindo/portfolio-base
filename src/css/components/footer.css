@@ -6,12 +6,16 @@
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    height: 50px;
+    height: 90px;
 }
 
 .rodape .copyright {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     opacity: 50%;
     font-size: 13px;
     text-align: center;
+    gap: 1em;
 }

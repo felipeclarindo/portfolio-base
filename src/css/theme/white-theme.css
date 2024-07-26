@@ -48,10 +48,35 @@ body.white .principal .redes-sociais a i:hover {
 
 /* Página de Projetos */
 
+body.white .principal .btn-mostrar-projetos {
+    color: #000;
+    border-color: #000;
+}
+
+body.white .principal .btn-voltar-projetos {
+    color: #000;
+    border-color: #000;
+}
+
+body.white .principal .projetos .projeto a h3 {
+    color: #fff;
+}
+
+body.white .principal .projetos .projeto p {
+    color: #fff;
+}
 
 /* Página do Curriculo */
 body.white .curriculo {
     background-color: black;
+    color: #fff;
+}
+
+body.white .curriculo .dados ul li p,
+body.white .escolaridade ul li p,
+body.white .conhecimento ul li p,
+body.white .competencias ul li p,
+body.white .idiomas ul li p {
     color: #fff;
 }
 
