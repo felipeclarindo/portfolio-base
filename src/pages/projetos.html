@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projetos | Felipe Clarindo</title>
-    <!-- Linkando css -->
-    <link rel="stylesheet" href="../css/pages/projetos/responsive.css" />
-    <link rel="stylesheet" href="../css/pages/projetos/style.css" />
+    <!-- Linkando Css -->
+    <link rel="stylesheet" href="../css/pages/projetos.css" />
+    <link rel="stylesheet" href="../css/base/responsive.css" />
     <!-- Adicionando Favicon -->
     <link
       rel="shortcut icon"
       href="../images/favicon.png"
       type="image/x-icon"
     />
-    <!-- Linkando JavaScript -->
-    <script src="../js/projetos.js" defer></script>
+    <!-- Linkando Font Awesome -->
     <script
       src="https://kit.fontawesome.com/998c60ef77.js"
       crossorigin="anonymous"
       defer
     ></script>
+    <!-- Linkando JavaScript da Página -->
+    <script src="../js/projetos.js" defer></script>
   </head>
   <body>
     <header class="cabecalho">
@@ -32,41 +33,43 @@
           <li class="item">
             <a href="../../index.html">Home</a>
           </li>
-          <li class="item">
+          <li class="item selecionado">
             <a href="./projetos.html">Projetos</a>
           </li>
           <li class="item">
-            <div class="botao" title="Trocar tema">
-              <input type="checkbox" class="checkbox" id="chk" />
-              <label class="label" for="chk">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-                <div class="bola"></div>
-              </label>
-            </div>
+            <a href="./curriculo.html">Curriculo</a>
           </li>
         </ul>
       </nav>
+      <div class="botao" title="Trocar tema">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="bola"></div>
+        </label>
+      </div>
     </header>
     <main class="principal">
       <div class="projetos" id="projetos">
         <h2 class="titulo">Projetos</h2>
 
         <div class="container-projetos">
+          <!-- Projeto 1 -->
           <div class="projeto ativo">
             <a href="https://felipeclarindo.github.io/gta-v/" target="_blank">
               <img
-                src="../images/projetos/gta.png"
-                alt="Projeto Landing Page GTA"
+                src="../images/projetos/gtav.png"
+                alt="Informações do Projeto GTA V"
               />
-              <h3>Grand Theft Auto</h3>
+              <h3>GTA V</h3>
               <div class="informacoes-projeto">
-                <p>Projeto feito usando HTML, CSS e JavaScript</p>
                 <p>Ver no Github Pages</p>
               </div>
             </a>
           </div>
 
+          <!-- Projeto 2 -->
           <div class="projeto ativo">
             <a
               href="https://felipeclarindo.github.io/one-piece/"
@@ -74,58 +77,58 @@
             >
               <img
                 src="../images/projetos/one-piece.png"
-                alt="Projeto Landing Page One Piece"
+                alt="Informações do Projeto One Piece"
               />
               <h3>One Piece</h3>
               <div class="informacoes-projeto">
-                <p>Projeto feito usando HTML, CSS e JavaScript</p>
                 <p>Ver no Github Pages</p>
               </div>
             </a>
           </div>
 
+          <!-- Projeto 3 -->
           <div class="projeto ativo">
             <a href="https://felipeclarindo.github.io/petlife/" target="_blank">
               <img
                 src="../images/projetos/pet-life.png"
-                alt="Projeto Landing Page Pet Life"
+                alt="Informações do Projeto Pet Life"
               />
               <h3>Pet Life</h3>
               <div class="informacoes-projeto">
-                <p>Projeto feito usando HTML, CSS e JavaScript</p>
                 <p>Ver no Github Pages</p>
               </div>
             </a>
           </div>
 
+          <!-- Projeto 4 -->
           <div class="projeto ativo">
-            <a href="https://felipeclarindo.github.io/oceano/" target="_blank">
-              <img
-                src="../images/projetos/oceano.png"
-                alt="Projeto Landing Page Oceano"
-              />
-              <h3>Oceano</h3>
-              <div class="informacoes-projeto">
-                <p>Projeto feito usando HTML, CSS e JavaScript</p>
-                <p>Ver no Github Pages</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="projeto">
             <a href="https://github.com/felipeclarindo/criptog" target="_blank">
               <img
                 src="../images/projetos/criptog.png"
-                alt="Projeto Software Cripto G"
+                alt="Informações do Projeto Cripto G"
               />
-              <h3>CriptoG 4</h3>
+              <h3>Cripto G</h3>
               <div class="informacoes-projeto">
-                <p>Projeto feito em Python</p>
                 <p>Ver no Github</p>
               </div>
             </a>
           </div>
 
+          <!-- Projeto 5 -->
+          <div class="projeto">
+            <a href="https://felipeclarindo.github.io/oceano" target="_blank">
+              <img
+                src="../images/projetos/oceano.png"
+                alt="Informações do Projeto Oceano"
+              />
+              <h3>Oceano</h3>
+              <div class="informacoes-projeto">
+                <p>Ver no Github Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Projeto 6 -->
           <div class="projeto">
             <a
               href="https://github.com/felipeclarindo/automotive-center"
@@ -133,11 +136,10 @@
             >
               <img
                 src="../images/projetos/auto-center.png"
-                alt="Projeto Software Automotive Center"
+                alt="Informações do Projeto Automotive Center"
               />
-              <h3>Auto Center</h3>
+              <h3>Automotive Center</h3>
               <div class="informacoes-projeto">
-                <p>Projeto feito em Python</p>
                 <p>Ver no Github</p>
               </div>
             </a>
@@ -150,6 +152,12 @@
 
     <footer class="rodape">
       <div class="copyright">
+        <h1
+          class="logo"
+          aria-label="Logo do site, representada pelas letras FC"
+        >
+          FC
+        </h1>
         <p>© Copyright 2024</p>
       </div>
     </footer>

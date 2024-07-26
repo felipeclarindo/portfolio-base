@@ -1,0 +1,153 @@
+@import url("../theme/white-theme.css");
+@import url("../components/header.css");
+@import url("../components/footer.css");
+@import url("../base/reset.css");
+@import url("../base/font.css");
+
+body {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+  max-width: 1520px;
+  background: linear-gradient(to bottom, #0a0a0a, #000, #0e0d0d);
+  transition: all 0.3s ease;
+}
+
+.principal {
+  max-height: 1550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.principal p {
+  font-size: 18px;
+}
+
+.principal h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.principal h2 {
+  font-size: 40px;
+}
+
+.principal section {
+  margin-bottom: 20px;
+  color: 000;
+}
+
+.principal section h2 {
+  margin-bottom: 15px;
+}
+
+.principal section h2::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f101";
+  margin-right: 15px;
+}
+
+.principal section p,
+.principal .dados .redes ul li a {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.principal .dados p strong,
+.principal .dados .redes strong {
+  font-size: 21px;
+}
+
+.principal .curriculo {
+  width: 100%;
+  max-width: 80vw;
+  margin: 20px auto 30px auto;
+  padding: 50px 100px;
+  background-color: white;
+  color: #000;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal .curriculo a {
+  color: #000;
+}
+
+.principal .dados .redes li {
+  list-style: disc;
+  margin-left: 20px;
+  padding-left: 0;
+  font-size: 0.9rem;
+}
+
+.principal .dados .redes li a {
+  transition: all 0.3s ease;
+}
+
+.principal .dados .redes li a:hover {
+  opacity: 40%;
+  text-decoration: underline;
+}
+
+.competencias {
+  max-width: 50%;
+}
+
+.competencias ul li {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.competencias ul li p {
+  width: 100%;
+}
+
+.principal .competencias ul .niveis {
+  display: flex;
+  gap: 5px;
+}
+
+.principal .competencias ul .niveis li {
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.principal .competencias ul .competencia1 .niveis .nivel:nth-child(-n + 5) {
+  background-color: black;
+}
+
+.principal .competencias ul .competencia2 .niveis .nivel:nth-child(-n + 5) {
+  background-color: black;
+}
+
+.principal .competencias ul .competencia3 .niveis .nivel:nth-child(-n + 5) {
+  background-color: black;
+}
+
+.principal .competencias ul .competencia4 .niveis .nivel:nth-child(-n + 4) {
+  background-color: black;
+}
+
+.principal .competencias ul .competencia5 .niveis .nivel:nth-child(-n + 4) {
+  background-color: black;
+}
+
+.principal .competencias ul .competencia6 .niveis .nivel:nth-child(-n + 3) {
+  background-color: black;
+}
+
+.principal .idiomas {
+  position: relative;
+  max-width: 50%;
+}
+
+.principal .idiomas .nivel {
+  font-weight: lighter;
+  position: absolute;
+  right: 0;
+}
